@@ -11,7 +11,7 @@ body {
 
 @media (min-width: 310px) and (max-width: 480px) {
   body {
-    background-image: url("../images/pexels-junior-teixeira-2047905.jpg");
+    background-image: url("../images/technology-git-github-hd-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -34,7 +34,7 @@ body {
   .menu ul {
     font-weight: 800;
     text-align: left;
-    margin-top: -50%;
+    margin-top: -45%;
     padding: 20%;
     margin-left: 40%;
     font-size: 20px;
