@@ -11,7 +11,7 @@ body {
 
 @media (min-width: 310px) and (max-width: 480px) {
   body {
-    background-image: url("../images/technology-git-github-hd-wallpaper-preview.jpg");
+    background-image: url("../images/git-img.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -32,7 +32,7 @@ body {
 
 @media only screen and (min-width: 310px) and (max-width: 450px) {
   .menu ul {
-    font-weight: 800;
+    font-weight: 1000;
     text-align: left;
     margin-top: -45%;
     padding: 20%;
@@ -102,7 +102,7 @@ body {
       font-size: 18px;
       font-family: var(--roboto-condensed);
       width: 100%; /* Define a largura desejada */
-      font-weight: 600;
+      font-weight: 350;
     }
   }
 }
@@ -139,7 +139,7 @@ body {
       font-size: 18px;
       font-family: var(--roboto-condensed);
       width: 100%; /* Define a largura desejada */
-      font-weight: 600;
+      font-weight: 350;
     }
   }
 }
@@ -175,7 +175,7 @@ body {
       font-size: 18px;
       font-family: var(--roboto-condensed);
       width: 100%; /* Define a largura desejada */
-      font-weight: 600;
+      font-weight: 350;
     }
   }
 }
@@ -207,11 +207,12 @@ body {
       font-weight: 800;
     }
     p {
+      width: 100%;
       margin-top: 5%;
       font-size: 18px;
       font-family: var(--roboto-condensed);
       width: 90%; /* Define a largura desejada */
-      font-weight: 600;
+      font-weight: 350;
     }
   }
 }
