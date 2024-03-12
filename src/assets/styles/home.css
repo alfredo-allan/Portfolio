@@ -175,6 +175,41 @@ body {
   }
 }
 
+#Projetos {
+  color: white;
+  margin-top: 15%;
+  margin-left: 9%;
+  h2 {
+    font-size: 35px;
+    font-weight: 800;
+  }
+  p {
+    margin-top: 5%;
+    font-size: 25px;
+    font-family: var(--roboto-condensed);
+    width: 90%; /* Define a largura desejada */
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 450px) {
+  #Projetos {
+    margin-left: -0%;
+    margin-top: 20%;
+    h2 {
+      font-size: 22px;
+      font-weight: 800;
+    }
+    p {
+      margin-top: 5%;
+      font-size: 18px;
+      font-family: var(--roboto-condensed);
+      width: 100%; /* Define a largura desejada */
+      font-weight: 350;
+    }
+  }
+}
+
 #Contato {
   color:white;
   margin-top: 15%;
