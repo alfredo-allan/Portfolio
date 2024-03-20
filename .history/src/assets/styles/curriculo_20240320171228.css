@@ -43,12 +43,11 @@ body {
 #linkbaixar {
   margin-left: 70%;
   font-family: var(--roboto-condensed);
-  font-weight: 400;
+  font-weight: 900;
 }
 
 @media (min-width: 310px) and (max-width: 720px) {
   #linkbaixar {
-    margin-left: 42%;
-		font-size: 15px;
+    margin-left: 40%;
   }
 }
