@@ -1,0 +1,8 @@
+:root {
+	--roboto-condensed: "Roboto Condensed", sans-serif;
+}
+
+body {
+	font-family: var(--roboto-condensed);
+}
+

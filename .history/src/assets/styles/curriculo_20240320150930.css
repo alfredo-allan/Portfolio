@@ -1,0 +1,23 @@
+:root {
+	--roboto-condensed: "Roboto Condensed", sans-serif;
+	
+}
+
+body {
+	font-family: var(--roboto-condensed);
+	ul {
+		li{
+				list-style: none;
+				line-height: 1.5;
+	}
+}
+	p {
+		list-style: none;
+		line-height: 1.5;
+		margin-left: 3%;
+	}
+	a {
+				margin-left: 3%;
+				line-height: 1.5;
+	}
+}

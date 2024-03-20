@@ -1,0 +1,12 @@
+:root {
+	--roboto-condensed: "Roboto Condensed", sans-serif;
+	text-align: left;
+}
+
+body {
+	font-family: var(--roboto-condensed);
+}
+
+li {
+	list-style: none;
+}

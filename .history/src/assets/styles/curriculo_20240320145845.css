@@ -1,0 +1,11 @@
+:root {
+	--roboto-condensed: "Roboto Condensed", sans-serif;
+}
+
+body {
+	font-family: var(--roboto-condensed);
+	background-color: rgb(26, 24, 24);
+	background-position: center;
+	background-size: cover;
+		list-style: none;
+}

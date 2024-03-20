@@ -4,7 +4,7 @@
 
 body {
   font-family: var(--roboto-condensed);
-  background-color: rgb(26, 24, 24);
+  background-image: url("../images/backgroundpexels.jpg");
   background-position: center;
   background-size: cover;
 }
