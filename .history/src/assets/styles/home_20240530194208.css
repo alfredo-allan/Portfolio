@@ -11,28 +11,28 @@ body {
 
 @media (min-width: 310px) and (max-width: 480px) {
   body {
-    /* background-image: url("../images/git-img.jpg"); */
+    background-image: url("../images/git-img.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: black;
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 2200px) {
-  #menu-options {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 0px;
-    width: 20%;
-    height: 52vh;
-    background-color: white;
-    z-index: 999;
-    font-weight: 900;
-    border-bottom-right-radius: 10%;
-    color: white;
-    letter-spacing: 2px;
+.menu ul {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: -14%;
+  margin-right: 4%;
+  text-align: right;
+  list-style: none;
+  li {
+    margin-right: 12px;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 450px) {
+  .menu ul {
+    
   }
 }
 
@@ -77,15 +77,12 @@ body {
     width: 100%; /* Define a largura desejada */
     font-weight: 600;
   }
-  li {
-    font-size: 20px;
-  }
 }
 
 @media only screen and (min-width: 310px) and (max-width: 450px) {
   #Sobre {
     margin-left: -1%;
-    margin-top: 75%;
+    margin-top: 35%;
     h2 {
       color: white;
       font-size: 22px;
@@ -104,7 +101,8 @@ body {
 
 @media screen and (min-width: 310px) and (max-width: 450px) {
   #menu-icon {
-    margin-top: -115px;
+    margin-left: 200px;
+    posi
   }
 }
 
@@ -122,9 +120,6 @@ body {
     font-family: var(--roboto-condensed);
     width: 90%; /* Define a largura desejada */
     font-weight: 600;
-  }
-  li {
-    font-size: 20px;
   }
 }
 
@@ -145,9 +140,6 @@ body {
       width: 100%; /* Define a largura desejada */
       font-weight: 350;
     }
-    li {
-      font-size: 20px;
-    }
   }
 }
 #sistemas {
@@ -164,9 +156,6 @@ body {
     font-family: var(--roboto-condensed);
     width: 90%; /* Define a largura desejada */
     font-weight: 600;
-  }
-  li {
-    font-size: 20px;
   }
 }
 
@@ -202,12 +191,6 @@ body {
     font-family: var(--roboto-condensed);
     width: 90%; /* Define a largura desejada */
     font-weight: 600;
-  }
-  li {
-    font-size: 20px;
-  }
-  a {
-    font-size: 25px;
   }
 }
 
@@ -302,12 +285,14 @@ body {
 }
 
 #menu-icon {
+  position: absolute;
+  margin-top: -190px;
   margin-left: 30px;
   width: 45px;
 }
 
 a {
-  color: blue;
+  color: white;
   text-decoration: none; /* Remove o sublinhado */
 }
 
@@ -325,9 +310,11 @@ a {
   border-bottom-right-radius: 10%;
   color: white;
   letter-spacing: 2px;
-  a {
-    color: black;
-  }
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: black;
 }
 
 #close-icon {

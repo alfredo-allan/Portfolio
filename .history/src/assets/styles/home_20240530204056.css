@@ -203,12 +203,7 @@ body {
     width: 90%; /* Define a largura desejada */
     font-weight: 600;
   }
-  li {
-    font-size: 20px;
-  }
-  a {
-    font-size: 25px;
-  }
+  </li>
 }
 
 @media only screen and (min-width: 310px) and (max-width: 450px) {
