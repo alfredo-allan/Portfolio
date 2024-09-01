@@ -14,232 +14,239 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <title>Portfolio</title>
     <style>
-      @media only screen and (min-width: 300px) and (max-width: 600px) {
-        #menu-options {
-          width: 100%;
-          border-bottom-left-radius: 10%;
-          border-bottom-right-radius: 10%;
-        }
-        #close-icon {
-          margin-left: 320px;
-        }
+      .menu-open {
+        display: block;
       }
 
-      @media only screen and (min-width: 600px) and (max-width: 2500px) {
-        #menu-options {
-          width: 30%;
-        }
-        #close-icon {
-          margin-left: 320px;
-        }
-        #menu-icon {
-          margin-top: -335px;
-        }
+      .menu-closed {
+        display: none;
       }
     </style>
-    <title>Portfolio</title>
-    <div class="foto-perfil">
-      <img src="./src/assets/images/foto-perfil.jpeg" alt="Minha Foto" />
-    </div>
-    <div id="menu-options">
-      <ul>
-        <span id="close-icon">X</span>
-        <br />
-        <li><a href="#Sobre">Sobre</a></li>
-        <li><a href="#Conhecimento">Conhecimento</a></li>
-        <li><a href="#Contato">Contato</a></li>
-        <li><a href="#Projetos">Projetos</a></li>
-        <li><a href="#Atividades">Atividades Faculdade</a></li>
-        <li><a href="./curriculo.html">Currículo</a></li>
-      </ul>
-    </div>
-
-    <header>
-      <img
-        id="menu-icon"
-        src="./src/assets/images/barra-menu.png"
-        alt="Menu Icon"
-      />
-    </header>
   </head>
   <body>
-    <div class="container" id="Sobre">
-      <h2>Sobre</h2>
-      <p>
-        Olá, sou Alfredo Allan, um entusiasta da tecnologia com vasta
-        experiência em várias áreas do desenvolvimento de software e sistemas.
-        Sou dedicado ao aprendizado contínuo e apaixonado por resolver problemas
-        através da tecnologia. Minha jornada inclui:
-      </p>
-      <ul>
-        <li>Shell Script e manipulação de arquivos</li>
-        <li>Introdução ao sistema operacional Linux</li>
-        <li>Programação para internet com JavaScript</li>
-        <li>Recriação da página do Instagram</li>
-        <li>Criação de sites com HTML5 e CSS3</li>
-        <li>Git e GitHub</li>
-        <li>Estruturas de algoritmos e lógica de programação</li>
-        <li>Engenharia social e phishing</li>
-      </ul>
-      <p>
-        Sou um usuário avançado de Linux e desenvolvi projetos pessoais, como
-        uma página de empréstimo no GitHub, onde aplico meus conhecimentos em
-        programação e web design. Estou sempre em busca de novos desafios e
-        pronto para contribuir significativamente com sua equipe.
-      </p>
+    <!-- Perfil e Menu -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="foto-perfil mb-3">
+            <img
+              src="./src/assets/images/foto-perfil.jpeg"
+              alt="Minha Foto"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#Sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Conhecimento">Conhecimento</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Atividades"
+                    >Atividades Faculdade</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./curriculo.html">Currículo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
-    <div id="Conhecimento">
-      <h2>Conhecimento</h2>
-      <p>
-        Atualmente, estou cursando Análise e Desenvolvimento de Sistemas. Meu
-        portfólio de habilidades inclui:
-      </p>
-      <ul>
-        <li>Shell script - Manipulação de arquivos</li>
-        <li>Introdução ao sistema operacional Linux</li>
-        <li>Programação para internet com JavaScript</li>
-        <li>Imersão front-end Alura</li>
-        <li>Criação de sites com HTML5 e CSS3</li>
-        <li>Introdução ao Git e GitHub</li>
-        <li>Estruturas de algoritmos</li>
-        <li>Lógica e programação essencial</li>
-        <li>Engenharia social e phishing</li>
-      </ul>
-    </div>
+    <!-- Seções do Conteúdo -->
+    <div class="container">
+      <div id="Sobre" class="my-4">
+        <h2>Sobre</h2>
+        <p>
+          Olá, sou Alfredo Allan, um entusiasta da tecnologia experiência em
+          áreas de desenvolvimento de software e sistemas. Sou dedicado ao
+          aprendizado contínuo e apaixonado por resolver problemas através da
+          tecnologia. Minha jornada inclui:
+        </p>
+        <ul>
+          <li>Shell Script e manipulação de arquivos</li>
+          <li>Introdução ao sistema operacional Linux</li>
+          <li>Programação para internet com JavaScript</li>
+          <li>Recriação da página do Instagram</li>
+          <li>Criação de sites com HTML5 e CSS3</li>
+          <li>Git e GitHub</li>
+          <li>Estruturas de algoritmos e lógica de programação</li>
+          <li>Engenharia social e phishing</li>
+        </ul>
+        <p>
+          Sou um usuário avançado de Linux e desenvolvi projetos pessoais, como
+          uma página de empréstimo no GitHub, onde aplico meus conhecimentos em
+          programação e web design. Estou sempre em busca de novos desafios e
+          pronto para contribuir significativamente com sua equipe.
+        </p>
+      </div>
 
-    <div id="sistemas">
-      <h2>Sistemas Operacionais</h2>
-      <p>
-        Tenho experiência significativa com sistemas operacionais Linux,
-        incluindo:
-      </p>
-      <ul>
-        <li>Gerenciamento de pacotes com apt e yum</li>
-        <li>Configuração de servidores Apache</li>
-        <li>Estabelecimento de conexões SSH e geração de chaves públicas</li>
-        <li>Boas práticas no uso do terminal de comandos</li>
-        <li>Instalação e configuração de sistemas operacionais</li>
-        <li>Manipulação de variáveis de ambiente, como PATH</li>
-      </ul>
-      <p>
-        Essas habilidades são essenciais para garantir um ambiente de trabalho
-        eficiente e seguro.
-      </p>
-    </div>
+      <div id="Conhecimento" class="my-4">
+        <h2>Conhecimento</h2>
+        <p>
+          Atualmente, estou cursando Análise e Desenvolvimento de Sistemas. Meu
+          portfólio de habilidades inclui:
+        </p>
+        <ul>
+          <li>Shell script - Manipulação de arquivos</li>
+          <li>Introdução ao sistema operacional Linux</li>
+          <li>Programação para internet com JavaScript</li>
+          <li>Imersão front-end Alura</li>
+          <li>Criação de sites com HTML5 e CSS3</li>
+          <li>Introdução ao Git e GitHub</li>
+          <li>Estruturas de algoritmos</li>
+          <li>Lógica e programação essencial</li>
+          <li>Engenharia social e phishing</li>
+        </ul>
+      </div>
 
-    <div id="Projetos">
-      <h2>Projetos</h2>
-      <p>
-        <strong>Emprestimo:</strong>
-        <li>
-          Desenvolvi uma página web responsiva utilizando Bootstrap 5, HTML e
-          CSS. A página simula um sistema de empréstimo, permitindo ao usuário
-          selecionar o número de meses para financiamento e visualizar uma
-          estimativa das parcelas. Inclui um botão de contato via WhatsApp para
-          facilitar a comunicação com um corretor.
-        </li>
+      <div id="sistemas" class="my-4">
+        <h2>Sistemas Operacionais</h2>
+        <p>
+          Tenho experiência significativa com sistemas operacionais Linux,
+          incluindo:
+        </p>
+        <ul>
+          <li>Gerenciamento de pacotes com apt e yum</li>
+          <li>Configuração de servidores Apache</li>
+          <li>Estabelecimento de conexões SSH e geração de chaves públicas</li>
+          <li>Boas práticas no uso do terminal de comandos</li>
+          <li>Instalação e configuração de sistemas operacionais</li>
+          <li>Manipulação de variáveis de ambiente, como PATH</li>
+        </ul>
+        <p>
+          Essas habilidades são essenciais para garantir um ambiente de trabalho
+          eficiente e seguro.
+        </p>
+      </div>
+
+      <div id="Projetos" class="my-4">
+        <h2>Projetos</h2>
+        <p>
+          <strong>Empréstimo Fácil:</strong>
+          <li>
+            Esse foi um dos meus primeiros projetos onde mergulhei no
+            desenvolvimento web. Eu criei uma página totalmente responsiva que
+            simula um sistema de empréstimo. Utilizando Bootstrap 5, HTML e CSS,
+            a página permite que os usuários escolham o número de meses para
+            financiamento e vejam uma estimativa das parcelas. Além disso,
+            inclui um botão de contato via WhatsApp, tornando a interação muito
+            mais prática e direta. Eu me diverti bastante trabalhando nesse
+            projeto e aprendi muito sobre como criar interfaces amigáveis para o
+            usuário.
+          </li>
+          <br />
+          <a href="https://alfredo-allan.github.io/Emprestimo-facil/index.html"
+            >github.io/Emprestimo-facil/</a
+          >
+        </p>
+        <p>
+          <strong>One Park Estabelecimento:</strong>
+          <li>
+            Esse projeto foi uma ótima oportunidade para explorar tanto o
+            front-end quanto o back-end do desenvolvimento web. Usando HTML, CSS
+            e JavaScript para o front-end, e Python com Flask para o back-end,
+            criei uma aplicação completa hospedada no PythonAnywhere. Foi
+            desafiador trabalhar com operações CRUD (Create, Read, Update,
+            Delete) e garantir que tudo fosse responsivo em dispositivos móveis.
+            Mas ver o resultado final e como ele pode facilitar a vida de um
+            estabelecimento foi extremamente gratificante.
+          </li>
+          <br />
+          <a
+            href="https://one-park.github.io/one-park-one-park-app.com/index.html"
+            >github.io/one-park-one-park-app.com/</a
+          >
+        </p>
+        <p>
+          <strong>Electronics Maintenance:</strong>
+          <li>
+            Este foi um projeto criado para ajudar técnicos de manutenção de
+            eletrônicos. Desenvolvi um sistema que permite o cadastro de
+            usuários e a geração de dados automaticamente para preencher
+            comprovantes. O programa também formata dados inseridos para
+            cadastro e inclui um caixa que monitoriza os orçamentos lançados
+            diariamente. Foi interessante combinar minhas habilidades de
+            desenvolvimento com as necessidades práticas de um setor específico.
+            Trabalhei com Bootstrap, HTML, CSS, JavaScript e Flask para garantir
+            que o programa fosse intuitivo e eficiente.
+          </li>
+          <br />
+          <a href="https://alfredo-allan.github.io/eletronics-maintenance/"
+            >github.io/eletronics-maintenance/</a
+          >
+        </p>
+        <p>
+          <strong>Controle de Datas de Validade de Produtos Frutap:</strong>
+          <li>
+            Este é um projeto que desenvolvi para gerenciar a validade de
+            produtos em supermercados, uma questão que pode causar muitos
+            prejuízos se não for bem controlada. O sistema que criei facilita o
+            cadastro de produtos e supermercados, permite a gestão de produtos
+            por código EAN com preenchimento automático, e avisa quando os
+            produtos estão próximos do vencimento. Foi muito gratificante
+            desenvolver uma solução que pode realmente ajudar a reduzir perdas e
+            melhorar a eficiência na gestão de estoques.
+          </li>
+        </p>
         <br />
-        <a href="https://allan-mecanico.github.io/Emprestimo-facil/index.html"
-          >github.io/Emprestimo-facil/</a
+        <a href="https://alfredo-allan.github.io/ControleDeDatasFrontEnd/"
+          >github.io/ControleDeDatasFrontEnd/</a
         >
-      </p>
-      <p>
-        <strong>Ketlyn Lash Designer:</strong>
-        <li>
-          Este projeto é uma aplicação web dinâmica e interativa, combinando
-          front-end e back-end. Utilizei HTML, CSS e JavaScript no front-end,
-          hospedado no GitHub Pages, e Python com Flask no back-end, hospedado
-          no PythonAnywhere, com um banco de dados SQLite. A aplicação suporta
-          operações CRUD (Create, Read, Update, Delete) e é responsiva para
-          dispositivos móveis.
-        </li>
-        <br />
-        <a href="https://allan-mecanico.github.io/Lash-Designer/"
-          >github.io/Lash-Designer/</a
-        >
-      </p>
-      <p>
-        <strong>Controle de Datas de Validade de Produtos Frutap:</strong>
-        Desenvolvi um sistema abrangente para gerenciar a validade de produtos
-        em supermercados. As funcionalidades principais incluem:
-      </p>
-      <ul>
-        <li>Cadastro de Supermercados com preenchimento automático</li>
-        <li>
-          Gestão de Produtos por Código EAN, com descrição recuperada de um
-          arquivo JSON
-        </li>
-        <li>
-          Controle de Datas de Validade com alertas para produtos próximos do
-          vencimento
-        </li>
-        <li>
-          Operações CRUD (Create, Read, Update, Delete) para produtos e
-          supermercados
-        </li>
-      </ul>
-      <p>
-        Este projeto utiliza JSON para gerenciamento de dados e autocompletar
-        para melhorar a usabilidade. É uma solução robusta para otimizar a
-        gestão de estoques e reduzir perdas em supermercados.
-      </p>
-      <br />
-      <a href="https://allan-mecanico.github.io/ControleDeDatasFrontEnd/"
-        >github.io/ControleDeDatasFrontEnd/</a
-      >
+      </div>
+
+      <div id="Atividades" class="my-4">
+        <h2>Atividades Acadêmicas</h2>
+        <p>
+          Nome: Alfredo e Gustavo <br />
+          Data: 05/04/2024 <br />
+          <a href="https://zenodo.org/records/10929316"
+            >Desenvolvimento web e Sistemas operacionais <br />
+            DOI:10.5281/zenodo.10929316</a
+          >
+        </p>
+      </div>
+
+      <div id="Contato" class="my-4">
+        <h2>Contato</h2>
+        <p>
+          <strong>Email:</strong> allan.teixeira92@gmail.com <br />
+          <strong>LinkedIn:</strong>
+          <a
+            href="https://www.linkedin.com/in/alfredo-allan-teixeira-ba2701149/"
+            >www.linkedin.com/in/alfredo-allan-teixeira</a
+          >
+          <br />
+          <strong>Github:</strong>
+          <a href="https://github.com/alfredo-allan"
+            >github.com/alfredo-allan</a
+          >
+          <br />
+          <strong>WhatsApp:</strong>
+          <a href="https://api.whatsapp.com/send?phone=5511994102660"
+            >(11) 99410-2660</a
+          >
+        </p>
+      </div>
     </div>
-
-    <div id="Atividades">
-      <h2>Atividades Acadêmicas</h2>
-      <p>
-        Nome: Alfredo e Gustavo <br />
-        Data: 05/04/2024 <br />
-        <a href="https://zenodo.org/records/10929316"
-          >Desenvolvimento web e Sistemas operacionais <br />
-          DOI:10.5281/zenodo.10929316</a
-        >
-      </p>
-    </div>
-
-    <div id="Contato">
-      <h2>Contato</h2>
-      <p>
-        <strong>Email:</strong> allan.teixeira92@gmail.com <br />
-        <strong>LinkedIn:</strong>
-        <a href="https://www.linkedin.com/in/alfredo-allan-teixeira-ba2701149/"
-          >www.linkedin.com/in/alfredo-allan-teixeira</a
-        >
-        <br />
-        <strong>Github:</strong>
-        <a href="https://github.com/allan-mecanico"
-          >github.com/allan-mecanico</a
-        >
-        <br />
-        <strong>WhatsApp:</strong>
-        <a href="https://api.whatsapp.com/send?phone=5511913311054"
-          >(11) 91331-1054</a
-        >
-      </p>
-    </div>
-
-    <script>
-      const menuIcon = document.getElementById("menu-icon");
-      const menuOptions = document.getElementById("menu-options");
-      const closeIcon = document.getElementById("close-icon");
-
-      menuIcon.addEventListener("click", function () {
-        if (menuOptions.style.display === "none") {
-          menuOptions.style.display = "block";
-        } else {
-          menuOptions.style.display = "none";
-        }
-      });
-
-      closeIcon.addEventListener("click", function () {
-        menuOptions.style.display = "none";
-      });
-    </script>
   </body>
 </html>

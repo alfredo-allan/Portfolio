@@ -38,7 +38,7 @@ body {
 
 .foto-perfil {
   margin-top: 1%;
-  margin-left: 80%;
+  margin-left: 17%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -311,40 +311,9 @@ a {
   text-decoration: none; /* Remove o sublinhado */
 }
 
-#menu-options {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 0px;
-  width: 20%;
-  height: 52vh;
-  background-color: white;
-  z-index: 999;
-  font-weight: 900;
-  border-bottom-right-radius: 10%;
-  color: white;
-  letter-spacing: 2px;
-  a {
-    color: black;
-  }
-}
-
 #close-icon {
   color: black;
   margin-left: 215px;
   position: absolute;
   margin-top: 10px;
-}
-
-#menu-options ul {
-  list-style: none;
-  padding: 0;
-  margin-left: 10px;
-  font-size: 20px;
-}
-
-#menu-options ul li {
-  padding: 10px;
-  /* border-bottom: 1px solid white; */
 }
