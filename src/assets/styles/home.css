@@ -9,6 +9,7 @@ body {
   background-size: cover;
 }
 
+
 @media (min-width: 310px) and (max-width: 480px) {
   body {
     /* background-image: url("../images/git-img.jpg"); */
@@ -64,19 +65,23 @@ body {
   color: white;
   margin-top: 30%;
   margin-left: 9%;
+
   h2 {
     font-weight: 1000;
     font-size: 35px;
     font-weight: 800;
   }
+
   p {
     font-weight: 300;
     margin-top: 5%;
     font-size: 25px;
     font-family: var(--roboto-condensed);
-    width: 100%; /* Define a largura desejada */
+    width: 100%;
+    /* Define a largura desejada */
     font-weight: 600;
   }
+
   li {
     font-size: 20px;
   }
@@ -86,17 +91,20 @@ body {
   #Sobre {
     margin-left: -1%;
     margin-top: 75%;
+
     h2 {
       color: white;
       font-size: 22px;
       font-weight: 800;
     }
+
     p {
       color: white;
       margin-top: 5%;
       font-size: 18px;
       font-family: var(--roboto-condensed);
-      width: 100%; /* Define a largura desejada */
+      width: 100%;
+      /* Define a largura desejada */
       font-weight: 350;
     }
   }
@@ -112,59 +120,80 @@ body {
   color: white;
   margin-top: 15%;
   margin-left: 9%;
+
   h2 {
     font-size: 35px;
-    font-weight: 800;
   }
+
   p {
     margin-top: 5%;
     font-size: 25px;
     font-family: var(--roboto-condensed);
-    width: 90%; /* Define a largura desejada */
-    font-weight: 600;
+    width: 90%;
+    /* Define a largura desejada */
   }
+
   li {
     font-size: 20px;
   }
+
+  a {
+    font-size: 25px;
+  }
+
 }
 
 @media only screen and (min-width: 310px) and (max-width: 450px) {
   #Conhecimento {
     margin-left: 1%;
     margin-top: 35%;
+
     h2 {
       color: white;
       font-size: 22px;
       font-weight: 800;
     }
+
     p {
       color: white;
       margin-top: 5%;
       font-size: 18px;
       font-family: var(--roboto-condensed);
-      width: 100%; /* Define a largura desejada */
+      width: 100%;
+      /* Define a largura desejada */
       font-weight: 350;
     }
+
     li {
       font-size: 20px;
     }
+
+    a {
+      font-size: 18px;
+      line-height: 2;
+    }
   }
 }
+
 #sistemas {
   color: white;
   margin-top: 15%;
   margin-left: 9%;
+
   h2 {
     font-size: 35px;
     font-weight: 800;
   }
+
   p {
     margin-top: 5%;
     font-size: 25px;
     font-family: var(--roboto-condensed);
-    width: 90%; /* Define a largura desejada */
+    width: 90%;
+    /* Define a largura desejada */
     font-weight: 600;
   }
+
   li {
     font-size: 20px;
   }
@@ -174,15 +203,18 @@ body {
   #sistemas {
     margin-left: -0%;
     margin-top: 20%;
+
     h2 {
       font-size: 22px;
       font-weight: 800;
     }
+
     p {
       margin-top: 5%;
       font-size: 18px;
       font-family: var(--roboto-condensed);
-      width: 100%; /* Define a largura desejada */
+      width: 100%;
+      /* Define a largura desejada */
       font-weight: 350;
     }
   }
@@ -192,20 +224,25 @@ body {
   color: white;
   margin-top: 15%;
   margin-left: 9%;
+
   h2 {
     font-size: 35px;
     font-weight: 800;
   }
+
   p {
     margin-top: 5%;
     font-size: 25px;
     font-family: var(--roboto-condensed);
-    width: 90%; /* Define a largura desejada */
+    width: 90%;
+    /* Define a largura desejada */
     font-weight: 600;
   }
+
   li {
     font-size: 20px;
   }
+
   a {
     font-size: 25px;
   }
@@ -215,17 +252,25 @@ body {
   #Projetos {
     margin-left: -0%;
     margin-top: 25%;
+
     h2 {
       font-size: 22px;
       font-weight: 800;
     }
+
     p {
       color: white;
       margin-top: 5%;
       font-size: 18px;
       font-family: var(--roboto-condensed);
-      width: 100%; /* Define a largura desejada */
+      width: 100%;
+      /* Define a largura desejada */
       font-weight: 350;
+    }
+
+
+    a {
+      font-size: 18px;
     }
   }
 }
@@ -234,15 +279,18 @@ body {
   color: white;
   margin-top: 15%;
   margin-left: 9%;
+
   h2 {
     font-size: 35px;
     font-weight: 800;
   }
+
   p {
     margin-top: 5%;
     font-size: 25px;
     font-family: var(--roboto-condensed);
-    width: 90%; /* Define a largura desejada */
+    width: 90%;
+    /* Define a largura desejada */
     font-weight: 600;
   }
 }
@@ -251,16 +299,19 @@ body {
   #Atividades {
     margin-left: -0%;
     margin-top: 25%;
+
     h2 {
       font-size: 22px;
       font-weight: 800;
     }
+
     p {
       color: white;
       margin-top: 5%;
       font-size: 18px;
       font-family: var(--roboto-condensed);
-      width: 100%; /* Define a largura desejada */
+      width: 100%;
+      /* Define a largura desejada */
       font-weight: 350;
     }
   }
@@ -270,15 +321,18 @@ body {
   color: white;
   margin-top: 15%;
   margin-left: 9%;
+
   h2 {
     font-size: 35px;
     font-weight: 800;
   }
+
   p {
     margin-top: 5%;
     font-size: 25px;
     font-family: var(--roboto-condensed);
-    width: 90%; /* Define a largura desejada */
+    width: 90%;
+    /* Define a largura desejada */
     font-weight: 600;
   }
 }
@@ -287,10 +341,12 @@ body {
   #Contato {
     margin-top: 25%;
     margin-left: 0%;
+
     h2 {
       font-size: 22px;
       font-weight: 800;
     }
+
     p {
       width: 100%;
       margin-top: 5%;
@@ -308,7 +364,8 @@ body {
 
 a {
   color: blue;
-  text-decoration: none; /* Remove o sublinhado */
+  text-decoration: none;
+  /* Remove o sublinhado */
 }
 
 #close-icon {
@@ -316,4 +373,12 @@ a {
   margin-left: 215px;
   position: absolute;
   margin-top: 10px;
+}
+
+.nav-link:hover {
+  background-color: #545454 !important;
+  width: 100%;
+  height: 40px;
+  color: white !important;
+  border-radius: 8px;
 }
